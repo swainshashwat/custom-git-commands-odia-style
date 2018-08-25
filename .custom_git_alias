@@ -1,0 +1,16 @@
+# fun git commands
+alias welcome='echo "WELCOME $USER"'
+alias mausa='git'
+alias mchap='git clone'
+alias mhan='git add'
+alias mhau='git commit'
+alias mhela='git push'
+alias mdekh='git status'
+alias mthau='git stash'
+
+# custom multiple git commands
+function mnua(){
+	git init
+	git add .
+	git commit -m "$1"
+}
